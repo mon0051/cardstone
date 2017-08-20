@@ -9,6 +9,8 @@
       "outDir": "dist",
       "assets": [
         "assets",
+        "styles/scss/bootstrap.css",
+        "lib/bootstrap.min.js",
         "favicon.ico"
       ],
       "index": "index.html",
@@ -19,7 +21,8 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "styles.css",
+        "styles/scss/bootstrap.css"
       ],
       "scripts": [],
       "environmentSource": "environments/environment.ts",

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit , Input } from '@angular/core';
 
 @Component({
   selector: 'app-card',
@@ -6,8 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./card.component.css']
 })
 export class CardComponent implements OnInit {
-
-  cost: number;
+  cost: number = 1;
+  description: string = "This is the first card. Hardcoded. Hard core hardcoded.";
+  name: string = "HardCode";
 
   constructor() { }
 
