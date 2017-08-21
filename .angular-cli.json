@@ -11,6 +11,8 @@
         "assets",
         "styles/scss/bootstrap.css",
         "lib/bootstrap.min.js",
+        "lib/popper.min.js",
+        "lib/jquery.min.js",
         "favicon.ico"
       ],
       "index": "index.html",
