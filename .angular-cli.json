@@ -9,9 +9,11 @@
       "outDir": "dist",
       "assets": [
         "assets",
+        "assets/cards.js",
         "styles/scss/bootstrap.css",
         "lib/bootstrap.min.js",
         "lib/popper.min.js",
+        "lib/popper.util.js",
         "lib/jquery.min.js",
         "favicon.ico"
       ],
