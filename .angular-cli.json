@@ -11,9 +11,10 @@
         "assets",
         "assets/cards.js",
         "styles/scss/bootstrap.css",
+        "styles/scss/custom/custom.css",
         "lib/bootstrap.min.js",
-        "lib/popper.min.js",
-        "lib/popper.util.js",
+        "lib/popper.js",
+        "lib/popper-utils.js",
         "lib/jquery.min.js",
         "favicon.ico"
       ],
@@ -26,7 +27,8 @@
       "prefix": "app",
       "styles": [
         "styles.css",
-        "styles/scss/bootstrap.css"
+        "styles/scss/bootstrap.css",
+        "styles/scss/custom/custom.css"
       ],
       "scripts": [],
       "environmentSource": "environments/environment.ts",

@@ -1,0 +1,16 @@
+$card-width : 280px;
+$cardSideMargins: 10px;
+$totalCardWidth : ($cardSideMargins * 2) + $card-width;
+$card-height: 400px;
+$card-margin-bottom: 16px;
+$totalCardHeight: $card-width + $card-margin-bottom;
+
+.card.monster{
+  max-width: $card-width;
+  height: $card-height;
+  max-height: $card-height;
+  overflow:hidden;
+  margin-bottom: $card-margin-bottom;
+  margin-right: $cardSideMargins;
+  margin-left: $cardSideMargins;
+}

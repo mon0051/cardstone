@@ -1,13 +1,12 @@
-<div class="col-md-3">
-  <div class="card">
-    <div class="card-header">
-      <span class="h5">{{name}}</span>
-      <span class="badge badge-primary float-right">{{cost}}</span>
-    </div>
-    <img class="card-img-top" src="assets/water_monster.jpg" alt="Card image cap">
-    <div class=""></div>
-    <div class="card-body">
-      {{description}}
-    </div>
+<div class="card monster">
+  <div class="card-header">
+    <span class="h5">{{card.name}}</span>
+    <span class="badge-pill badge-primary float-right">{{card.cost}}</span>
   </div>
+  <img class="card-img-top monster-image" src="{{card.imageAppRelativeUrl}}" alt="Card image cap">
+  <div class=""></div>
+  <div class="card-body">
+    {{card.description}}
+  </div>
+  <div class="card-footer"></div>
 </div>

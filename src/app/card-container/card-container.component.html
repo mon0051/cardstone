@@ -1,3 +1,5 @@
-<div *ngFor="let card of cards">
-  <app-card [cost]="card.cost" [name]="card.name" [description]="card.description"></app-card>
+<div class="">
+  <div class="card-deck">
+    <app-card *ngFor="let card of myCards" [card]="card"></app-card>
+  </div>
 </div>

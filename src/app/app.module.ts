@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { CardComponent } from './card/card.component';
 import { CardContainerComponent } from './card-container/card-container.component';
+import { CardService, DummyCardService } from "./dummy-data/dummy-data-service.service";
 
 @NgModule({
   declarations: [
@@ -14,7 +15,10 @@ import { CardContainerComponent } from './card-container/card-container.componen
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [
+    DummyCardService,
+    {provide: CardService, useExisting: DummyCardService}
+    ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
